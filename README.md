@@ -5,7 +5,7 @@
 
 敬请期待
 
-作者 **Siver**或**SiverKing** 全网同名，转载请注明作者
+作者 **Siver**或**SiverKing** 全网同名，转载请注明作者，README.md修改自**技术爬爬虾**(bilibili)
 
 ### 申请公众号测试账户
 
