@@ -58,6 +58,7 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 修改这几行里的时间
 ![2](https://github.com/SiverKing/FreeWechatPush_Siver/assets/112841633/356aba83-8383-4266-955f-0bdae56d9cb6)
 
+最后将ChengShi_id.py 和 index.py放置同一目录下 在本地电脑或服务器运行index.py即可
 ### 安装python依赖，启动项目
 ```copy
 pip3 install requests html5lib bs4 schedule
