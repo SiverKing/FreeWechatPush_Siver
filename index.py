@@ -25,31 +25,31 @@ Siver所有
 每日金句{{date13.DATA}}
 每日金句{{date14.DATA}}
 '''
-#用户列表
+#用户列表 #以下ID均经过修改只是示例不可使用
 User=[
     {
-        'app_id' : 'wx95fe354f4e827c43',
-        'app_secret' : 'b6116ffa944de59d48409843d935482a',
+        'app_id' : 'wx95fe354f4e827c46',
+        'app_secret' : 'b6116ffa944de59d48409843d935486a',
         '用户列表' : [
             {
-                '用户ID' : 'ozgrT6q1xqiNUG1wxlp4_5QJF_aQ',
-                '模块ID' : 'qBN1lrHqyvI4fLtbsHKQ6DqzI_nbv4WrRBwQ1h0DWss',
+                '用户ID' : 'ozgrT6q1xqiNUG1wxlp4_6QJF_aQ',
+                '模块ID' : 'qBN1lrHqyvI4fLtbsHKQ6DqzI_nbv4WrRBwQ1h6DWss',
                 '省份' : '浙江',#对应另一个文件查找
                 '城市' : '宁波',#对应另一个文件查找
                 '生日' : {
-                    '祯':'2004-5-30',
-                    '威':'2004-6-28',
-                    '博':'2004-7-6',
-                    '铭':'2004-8-27',
+                    '祯':'2004-1-1',
+                    '威':'2004-1-1',
+                    '博':'2004-1-1',
+                    '铭':'2004-1-1',
                 },
             },
             {
-                '用户ID' : 'ozgrT6n4eo1xfS9BG5QBbl1GMZfk',
-                '模块ID' : 'qBN1lrHqyvI4fLtbsHKQ6DqzI_nbv4WrRBwQ1h0DWss',
+                '用户ID' : 'ozgrT6n4eo1xfS9BG6QBbl1GMZfk',
+                '模块ID' : 'qBN1lrHqyvI4fLtbsHKQ6DqzI_nbv4WrRBwQ1h6DWss',
                 '省份' : '浙江',#对应另一个文件查找
                 '城市' : '宁波',#对应另一个文件查找
                 '生日' : {
-                    '铭':'2004-8-27',
+                    '铭':'2004-1-1',
                 },
             },
         ]
@@ -233,7 +233,7 @@ def send():
         for 用户 in 客户['用户列表']:
             发送消息(客户['app_id'],客户['app_secret'],用户,'宁波')
 
-
+#在此设置定时运行的时间
 schedule.every().day.at("07:45").do(send)
 #send()#测试时打开
 while True:
