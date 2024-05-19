@@ -128,8 +128,8 @@ def 发送消息(app_id,app_secret,用户,city):
     最高气温 = 天气list['temp']
     最低气温 = 天气list['tempn']
 
-    for 生日 in list(用户['生日'].keys()):
-        用户['生日'][生日]=生日距离天数计算(用户['生日'][生日])
+#    for 生日 in list(用户['生日'].keys()):
+#        用户['生日'][生日]=生日距离天数计算(用户['生日'][生日])
 
     r = requests.get('http://open.iciba.com/dsapi/').json()
     英文文案=r['content']
@@ -144,7 +144,7 @@ def 发送消息(app_id,app_secret,用户,city):
     今日农历 += ' ' + r[a+14:b]
     
     for 生日 in list(用户['生日'].keys()):
-        显示内容+='%s%s天 '%(生日,用户['生日'][生日])
+        显示内容+='%s%s天 '%(生日, 生日距离天数计算(用户['生日'][生日]))
     print(用户['用户ID'])
     print(用户['模块ID'])
     print(用户['城市'])
