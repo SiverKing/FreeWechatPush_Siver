@@ -52,7 +52,8 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 
 将上面获得的几个值填入代码这几行,同时修改对应用户的城市与他想要接收的生日倒计时
 
-![1](https://github.com/SiverKing/FreeWechatPush_Siver/assets/112841633/86dc32b5-a15c-4710-8dc5-b09ba4d37a83)
+![2](https://github.com/SiverKing/FreeWechatPush_Siver/assets/112841633/300532d1-2224-4c96-ab7e-3b535c97c078)
+
 ### 配置定时任务
 
 修改这几行里的时间
