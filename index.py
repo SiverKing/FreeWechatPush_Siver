@@ -5,6 +5,8 @@ Siver所有
 微信测试号定时推送程序
 
 首次提交:2024/05/18
+作者:Siver
+www.siverking.online
 '''
 #微信模板保存
 '''
