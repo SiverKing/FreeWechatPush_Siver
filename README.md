@@ -3,6 +3,8 @@
 基于python，部分变量与功能函数均为中文命名，阅读方便@_@
 ### 视频教程
 
+文字教程：**https://blog.siverking.online/archives/7/**
+
 敬请期待
 
 作者个人主页**www.siverking.online**
@@ -16,16 +18,13 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 
 进入页面以后我们来获取到这四个值 
 #### appID  appSecret openId template_id
-![image](https://github.com/tech-shrimp/FreeWechatPush/assets/154193368/bdb27abd-39cb-4e77-9b89-299afabc7330)
-图片来源**技术爬爬虾**
+![image](http://blog.siverking.online/photo_img/wechatPush3.png)
 
 想让谁收消息，谁就用微信扫二维码，然后出现在用户列表，获取微信号（openId）
- ![image](https://github.com/tech-shrimp/FreeWechatPush/assets/154193368/1327c6f5-5c92-4310-a10b-6f2956c1dd75)
-图片来源**技术爬爬虾**
+ ![image](http://blog.siverking.online/photo_img/wechatPush4.png)
 
 新增测试模板获得  template_id（模板ID）
- ![image](https://github.com/tech-shrimp/FreeWechatPush/assets/154193368/ec689f4d-6c0b-44c4-915a-6fd7ada17028)
-图片来源**技术爬爬虾**
+ ![image](http://blog.siverking.online/photo_img/wechatPush5.png)
 
 模板标题随便填，模板内容如下，可以根据需求自己定制
 
