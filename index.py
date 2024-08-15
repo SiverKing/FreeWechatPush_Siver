@@ -30,7 +30,7 @@ www.siverking.online
 #用户列表 #以下ID均经过修改只是示例不可使用
 User=[
     {
-        'app_id' : 'wx95fe354f4e827c46',
+        'app_id' : 'wx666666666666666',
         'app_secret' : 'b6116ffa944de59d48409843d935486a',
         '用户列表' : [
             {
