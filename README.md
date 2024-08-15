@@ -5,7 +5,7 @@
 
 文字教程：**https://blog.siverking.online/archives/7/**
 
-敬请期待
+视频教程：敬请期待
 
 作者个人主页**www.siver.top**
 
