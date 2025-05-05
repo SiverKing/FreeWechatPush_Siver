@@ -3,7 +3,7 @@
 基于python，部分变量与功能函数均为中文命名，阅读方便@_@
 ### 视频教程
 
-文字教程：**https://blog.siverking.online/archives/7/**
+文字教程：敬请期待
 
 视频教程：敬请期待
 
